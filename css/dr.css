@@ -254,7 +254,7 @@ input {
 /*Cellphone Screens in portrait*/
 
 .btn-font {
-	font-size: 12px;
+	font-size: 19px;
 	letter-spacing: .03em;
 }
 
@@ -281,7 +281,7 @@ input {
 }
 
 .bottom-padding {
-	padding-bottom: 200px;
+	padding-bottom: 10px;
 }
 
 .mono-font h5 {
@@ -296,7 +296,7 @@ input {
 
 li {
 	font-family: monospace, serif;
-	font-size: 12px;
+	font-size: 19px;
 }
 
 .tag-font {
