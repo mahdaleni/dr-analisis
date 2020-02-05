@@ -45,8 +45,8 @@ $("#image-selector").change(function () {
 let model;
 (async function () {
 	
-	model = await tf.loadModel('https://dr-app.now.sh/model_dr_2/model.json');
-	$("#selected-image").attr("src", "https://dr-app.now.sh/assets/fundus_1.jpg")
+	model = await tf.loadModel('https://dr-analisis.now.sh/model_dr_2/model.json');
+	$("#selected-image").attr("src", "https://dr-analisis.now.sh/assets/fundus_1.jpg")
 	
 	console.log('model_dr_2');
 	
