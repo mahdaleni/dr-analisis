@@ -1,11 +1,18 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 <meta charset="utf-8">
-<title>DR Analyzer</title>
+<title>Analisis Dini Retinopati Diabetes</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Use the power of Machine Learning to diagnose diabetic reinopathy on fundus images.">
+
+
+<meta name="theme-color" content="#008000">
+
+
+
+<meta name="description" content="Diagnose diabetic retinopathy on fundus images.">
 
 
 <!--Code to prevent the browser from caching the page-->
@@ -41,7 +48,7 @@ html,body,h2,h3,h4 {font-family: Helvetica, sans-serif}
 </head>
 
 
-<body class="w3-pale-blue">
+<body class="w3-green">
 
 
 
@@ -52,6 +59,9 @@ and is wrapped around the whole page content. -->
 
 
 <!-- 1. HOME PAGE TAB -->
+
+
+
 <div class="tabbed w3-animate-opacity w3-white" id="home">
 
 
@@ -59,10 +69,10 @@ and is wrapped around the whole page content. -->
 <!-- Header -->
 <div class="w3-center title adjust-fontcolor logo">
 	
-  <h1 class="space-letters w3-text-purple"><i class="fa fa-plus-square w3-padding" style="font-size:35px;color:red"></i><b>Diabetic Retinopathy<br>Analyzer</b></h1>
+  <h1 class="space-letters w3-text-purple"><i class="fa fa-eye-slash w3-padding" style="font-size:35px;color:green"></i><b>Analisa Dini<br>Retinopati Diabetes</b></h1>
   
   
-  <h5 class="space-letters tag-font w3-text-red"><b>powered by<br> Artificial Intelligence</b></h5>
+  <h5 class="space-letters tag-font w3-text-red"><b>Develop by<br>Zulman Arif.ST</b></h5>
 </div>
 
 
@@ -76,23 +86,23 @@ and is wrapped around the whole page content. -->
 
 
 <div class="w3-center">
-	<div class="progress-bar w3-text-teal">Model is Loading...</div>
+	<div class="progress-bar w3-text-teal">Memuat data... dalam 2 menit</div>
 </div>
 
 
-<div class="w3-center add-padding w3-border add-margin side-margin w3-round w3-pale-blue">
+<div class="w3-center add-padding w3-border add-margin side-margin w3-round w3-green">
 		
-	<h5 class='new-font'>Results</h5>
+	<h5 class='new-font'>HASIL (%)</h5>
 	<ol class='w3-left-align' id='prediction-list'></ol>
 		
 </div>
 
 
 <!-- Button -->
-<div id="btnn" class="w3-center bottom-padding">
+<div id="btn" class="w3-center bottom-padding">
 	
-	<button class="w3-btn w3-purple w3-round w3-margin-bottom adjust-spacing w3-hover-red btn-font w3-padding w3-space-letters w3-card-4" onclick="setTimeout(simulateClick.bind(null, 'image-selector'), 200)"><i class='fas fa-camera w3-padding-right' style='font-size:15px'></i><b>Submit a Fundus Image</b></button>
-	<p class="w3-text-teal">jpeg or png</p>
+	<button class="w3-btn w3-green w3-round w3-margin-bottom adjust-spacing w3-hover-red btn-font w3-padding w3-space-letters w3-card-4" onclick="setTimeout(simulateClick.bind(null, 'image-selector'), 400)"><i class='fas fa-camera w3-padding-right' style='font-size:25px'></i><b>Upload Gambar Fundus</b></button>
+	<p class="w3-text-teal">Tipe jpeg atau png</p>
 </div> 
 
 
@@ -101,9 +111,53 @@ and is wrapped around the whole page content. -->
 
 
 
+
+
+
+
+<h><p class='add-padding w3-border add-margin side-margin w3-round w3-padding w3-text-black'>Bagaimana cara mendapatkan gambar fundus dengan smartphone/HP anda??
+Lihat Video berikut ini.</p></h>
+
+
+
+<center><iframe width="360" height="215" src="https://www.youtube.com/embed/iMut5iMbgIE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+
 <div class='w3-padding'>
-	<p class='w3-round w3-margin w3-margin-bottom w3-text-teal'>Please Note: This is a prototype.</p>
+
+
+
+
+<h><p class='add-padding w3-border add-margin side-margin w3-round w3-padding w3-text-teal'>Aplikasi web ini bertujuan untuk menganalisa secara dini retinopati diabetes pada gambar fundus. Aplikasi ini berguna untuk operator medis di daerah terpencil untuk deteksi dini retinopati diabetes akibat diabetes melitus type 1 dan 2 </p></h>
+
+
+<h><p> Artikel : </p></h>
+<h><p>Retinopati diabetes atau sering juga ditulis sebagai diabetic retinopathy adalah penyakit mata retinopati pada penderita diabetes yang menyebabkan kerusakan retina dan merupakan penyebab utama kebutaan. Retinopati diabetes dialami oleh 80 persen mereka yang menderita diabetes 20 tahun atau lebih. Setidaknya 90 persen dari penderita retinopati diabetes bisa ditekan jika dilakukan perawatan dan pengawasan yang tepat pada mata. Semakin lama seseorang menderita diabetes, makin besar kemungkinan ia menderita retinopati diabetes.<br>
+<a href="https://en.wikipedia.org/wiki/Diabetic_retinopathy"> - wikipidia</a></p></h>
+
+<h3><br><b>Perhatian :
+<h3><p class='add-padding w3-border add-margin side-margin w3-round w3-padding w3-text-teal'>Aplikasi ini dijalankan oleh program.
+Untuk memastikan privasi dan kerahasiaan pasien, semua gambar akan diproses secara lokal dan tidak pernah diunggah ke server eksternal.</p></h>
+
+
+
+
+
+
+
+
+</p>
+
+
 </div>
+
+
+ Download Aplikasi:<br>
+      <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRK_U7J6u94Pu7WNHB577jMUzxYN-6N3OsF3L5Vn3sM-SGGrLuLg&s">
+         <img alt="Qries" src="http://1.bp.blogspot.com/-ZrM_D_dwK9k/VNW9EqSdQwI/AAAAAAAAANI/6SKdhr_NMyQ/s1600/Android-Icon.png"
+         width=150" height="70">
+      </a>
+
 
 
 </div><!--END OF HOME PAGE TAB-->
@@ -130,13 +184,7 @@ and is wrapped around the whole page content. -->
 	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.13.3/dist/tf.min.js"> 
 	</script>
 	
-	<!-- NOTE:
-	Change the predict.js file name (change the number) each time you modify the predict.js file.
-	This will force the browser to load the latest predict.js and not load
-	the predict.js file that is in the user's cache.
-	There is a stackoverflow soulution that says to add a version to the js file. 
-	But it could be that some browsers can ignore the version. Therefore I think
-	it's safer to change the js file name.-->
+	
 	<script src="jscript/target_classes.js"></script>
 	<script src="jscript/predict.js"></script> 
 	
